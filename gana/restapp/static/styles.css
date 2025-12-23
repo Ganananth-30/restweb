@@ -1,0 +1,208 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.main {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+    url('am.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+h1 
+{
+    padding-top: 75px;
+    font-size: 70px;
+    color:coral;
+    letter-spacing: 20px;
+}
+.navbar
+{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background: whitesmoke; 
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+.navbar ul 
+{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.navbar ul li a 
+{
+    color: indigo;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.rect 
+{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cir
+{
+    background-color: papayawhip; 
+    width: 200px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.img-container {
+    width: 150px;
+    height: 200px;
+    margin: 0 auto 30px;
+    border-radius: 50%; 
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cir h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.cir p 
+{
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.tat 
+{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+    url('am.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: cyan;
+    text-align: left;
+
+}
+
+.contact-container {
+    padding: 50px;
+    flex: 1;
+
+}
+
+.main-title {
+    font-size: 80px;
+    color: gold;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.info-section {
+    max-width: 400px;
+
+
+}
+
+.info-group {
+    margin-bottom: 30px;
+}
+
+.info-group h3 {
+    font-size: 30px;
+    font-family: 'Georgia', serif;
+    margin-bottom: 10px;
+}
+
+.info-group p {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 300;
+
+}
+
+.name 
+{
+    padding-top: 75px;
+    padding-left: 50px;
+}
+
+h1 
+{
+    font-size: 70px;
+    color:coral;
+    letter-spacing: 5px;
+}
+
+.rest-quote 
+{
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: gold;
+}
+
+.rest-description 
+{
+    text-align: left;
+    max-width: 800px;
+    margin: 25px auto;
+    font-size: 20px;
+    color: gold;
+}
+
+.image-home {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 0 50px;
+}
+
+.dini 
+{
+    width: 450px;
+    height: 300px;
+    object-fit: fit;
+    border: 8px solid goldenrod;
+}
+
+img{
+    height: 285px;
+    width: 435px;
+}
+footer {
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    background-color: azure;
+}
